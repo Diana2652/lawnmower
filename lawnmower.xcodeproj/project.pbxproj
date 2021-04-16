@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		523F55652629FAC10092AB27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F55642629FAC10092AB27 /* AppDelegate.swift */; };
+		523F55672629FAC10092AB27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F55662629FAC10092AB27 /* SceneDelegate.swift */; };
+		523F55692629FAC10092AB27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F55682629FAC10092AB27 /* ViewController.swift */; };
+		523F556C2629FAC10092AB27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523F556A2629FAC10092AB27 /* Main.storyboard */; };
+		523F556E2629FAC50092AB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523F556D2629FAC50092AB27 /* Assets.xcassets */; };
+		523F55712629FAC50092AB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523F556F2629FAC50092AB27 /* LaunchScreen.storyboard */; };
+		523F557C2629FAC50092AB27 /* lawnmowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F557B2629FAC50092AB27 /* lawnmowerTests.swift */; };
+		523F55872629FAC50092AB27 /* lawnmowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F55862629FAC50092AB27 /* lawnmowerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		523F55782629FAC50092AB27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523F55592629FAC10092AB27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523F55602629FAC10092AB27;
+			remoteInfo = lawnmower;
+		};
+		523F55832629FAC50092AB27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523F55592629FAC10092AB27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523F55602629FAC10092AB27;
+			remoteInfo = lawnmower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		523F55612629FAC10092AB27 /* lawnmower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lawnmower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		523F55642629FAC10092AB27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		523F55662629FAC10092AB27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		523F55682629FAC10092AB27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		523F556B2629FAC10092AB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		523F556D2629FAC50092AB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		523F55702629FAC50092AB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		523F55722629FAC50092AB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523F55772629FAC50092AB27 /* lawnmowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lawnmowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		523F557B2629FAC50092AB27 /* lawnmowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lawnmowerTests.swift; sourceTree = "<group>"; };
+		523F557D2629FAC50092AB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523F55822629FAC50092AB27 /* lawnmowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lawnmowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		523F55862629FAC50092AB27 /* lawnmowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lawnmowerUITests.swift; sourceTree = "<group>"; };
+		523F55882629FAC50092AB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		523F555E2629FAC10092AB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F55742629FAC50092AB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F557F2629FAC50092AB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523F55582629FAC10092AB27 = {
+			isa = PBXGroup;
+			children = (
+				523F55632629FAC10092AB27 /* lawnmower */,
+				523F557A2629FAC50092AB27 /* lawnmowerTests */,
+				523F55852629FAC50092AB27 /* lawnmowerUITests */,
+				523F55622629FAC10092AB27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		523F55622629FAC10092AB27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523F55612629FAC10092AB27 /* lawnmower.app */,
+				523F55772629FAC50092AB27 /* lawnmowerTests.xctest */,
+				523F55822629FAC50092AB27 /* lawnmowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		523F55632629FAC10092AB27 /* lawnmower */ = {
+			isa = PBXGroup;
+			children = (
+				523F55642629FAC10092AB27 /* AppDelegate.swift */,
+				523F55662629FAC10092AB27 /* SceneDelegate.swift */,
+				523F55682629FAC10092AB27 /* ViewController.swift */,
+				523F556A2629FAC10092AB27 /* Main.storyboard */,
+				523F556D2629FAC50092AB27 /* Assets.xcassets */,
+				523F556F2629FAC50092AB27 /* LaunchScreen.storyboard */,
+				523F55722629FAC50092AB27 /* Info.plist */,
+			);
+			path = lawnmower;
+			sourceTree = "<group>";
+		};
+		523F557A2629FAC50092AB27 /* lawnmowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				523F557B2629FAC50092AB27 /* lawnmowerTests.swift */,
+				523F557D2629FAC50092AB27 /* Info.plist */,
+			);
+			path = lawnmowerTests;
+			sourceTree = "<group>";
+		};
+		523F55852629FAC50092AB27 /* lawnmowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				523F55862629FAC50092AB27 /* lawnmowerUITests.swift */,
+				523F55882629FAC50092AB27 /* Info.plist */,
+			);
+			path = lawnmowerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		523F55602629FAC10092AB27 /* lawnmower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523F558B2629FAC50092AB27 /* Build configuration list for PBXNativeTarget "lawnmower" */;
+			buildPhases = (
+				523F555D2629FAC10092AB27 /* Sources */,
+				523F555E2629FAC10092AB27 /* Frameworks */,
+				523F555F2629FAC10092AB27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lawnmower;
+			productName = lawnmower;
+			productReference = 523F55612629FAC10092AB27 /* lawnmower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		523F55762629FAC50092AB27 /* lawnmowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523F558E2629FAC50092AB27 /* Build configuration list for PBXNativeTarget "lawnmowerTests" */;
+			buildPhases = (
+				523F55732629FAC50092AB27 /* Sources */,
+				523F55742629FAC50092AB27 /* Frameworks */,
+				523F55752629FAC50092AB27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523F55792629FAC50092AB27 /* PBXTargetDependency */,
+			);
+			name = lawnmowerTests;
+			productName = lawnmowerTests;
+			productReference = 523F55772629FAC50092AB27 /* lawnmowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		523F55812629FAC50092AB27 /* lawnmowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523F55912629FAC50092AB27 /* Build configuration list for PBXNativeTarget "lawnmowerUITests" */;
+			buildPhases = (
+				523F557E2629FAC50092AB27 /* Sources */,
+				523F557F2629FAC50092AB27 /* Frameworks */,
+				523F55802629FAC50092AB27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523F55842629FAC50092AB27 /* PBXTargetDependency */,
+			);
+			name = lawnmowerUITests;
+			productName = lawnmowerUITests;
+			productReference = 523F55822629FAC50092AB27 /* lawnmowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		523F55592629FAC10092AB27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					523F55602629FAC10092AB27 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					523F55762629FAC50092AB27 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 523F55602629FAC10092AB27;
+					};
+					523F55812629FAC50092AB27 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 523F55602629FAC10092AB27;
+					};
+				};
+			};
+			buildConfigurationList = 523F555C2629FAC10092AB27 /* Build configuration list for PBXProject "lawnmower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 523F55582629FAC10092AB27;
+			productRefGroup = 523F55622629FAC10092AB27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				523F55602629FAC10092AB27 /* lawnmower */,
+				523F55762629FAC50092AB27 /* lawnmowerTests */,
+				523F55812629FAC50092AB27 /* lawnmowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		523F555F2629FAC10092AB27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F55712629FAC50092AB27 /* LaunchScreen.storyboard in Resources */,
+				523F556E2629FAC50092AB27 /* Assets.xcassets in Resources */,
+				523F556C2629FAC10092AB27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F55752629FAC50092AB27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F55802629FAC50092AB27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		523F555D2629FAC10092AB27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F55692629FAC10092AB27 /* ViewController.swift in Sources */,
+				523F55652629FAC10092AB27 /* AppDelegate.swift in Sources */,
+				523F55672629FAC10092AB27 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F55732629FAC50092AB27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F557C2629FAC50092AB27 /* lawnmowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F557E2629FAC50092AB27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F55872629FAC50092AB27 /* lawnmowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		523F55792629FAC50092AB27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523F55602629FAC10092AB27 /* lawnmower */;
+			targetProxy = 523F55782629FAC50092AB27 /* PBXContainerItemProxy */;
+		};
+		523F55842629FAC50092AB27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523F55602629FAC10092AB27 /* lawnmower */;
+			targetProxy = 523F55832629FAC50092AB27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		523F556A2629FAC10092AB27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523F556B2629FAC10092AB27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		523F556F2629FAC50092AB27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523F55702629FAC50092AB27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		523F55892629FAC50092AB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		523F558A2629FAC50092AB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523F558C2629FAC50092AB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lawnmower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CODE.lawnmower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		523F558D2629FAC50092AB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lawnmower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CODE.lawnmower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		523F558F2629FAC50092AB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lawnmowerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CODE.lawnmowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lawnmower.app/lawnmower";
+			};
+			name = Debug;
+		};
+		523F55902629FAC50092AB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lawnmowerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CODE.lawnmowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lawnmower.app/lawnmower";
+			};
+			name = Release;
+		};
+		523F55922629FAC50092AB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lawnmowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CODE.lawnmowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lawnmower;
+			};
+			name = Debug;
+		};
+		523F55932629FAC50092AB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lawnmowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CODE.lawnmowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lawnmower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		523F555C2629FAC10092AB27 /* Build configuration list for PBXProject "lawnmower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523F55892629FAC50092AB27 /* Debug */,
+				523F558A2629FAC50092AB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523F558B2629FAC50092AB27 /* Build configuration list for PBXNativeTarget "lawnmower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523F558C2629FAC50092AB27 /* Debug */,
+				523F558D2629FAC50092AB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523F558E2629FAC50092AB27 /* Build configuration list for PBXNativeTarget "lawnmowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523F558F2629FAC50092AB27 /* Debug */,
+				523F55902629FAC50092AB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523F55912629FAC50092AB27 /* Build configuration list for PBXNativeTarget "lawnmowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523F55922629FAC50092AB27 /* Debug */,
+				523F55932629FAC50092AB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523F55592629FAC10092AB27 /* Project object */;
+}
